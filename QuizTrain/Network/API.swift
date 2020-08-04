@@ -30,7 +30,7 @@ final public class API: NSObject, URLSessionDelegate {
 
     // MARK: - Init
 
-    public init(username: String, secret: String, hostname: String, port: Int = 443, scheme: String = "https", path: String = "/index.php", skipSSL: Bool = false) {
+    public init(username: String, secret: String, hostname: String, port: Int = 443, scheme: String = "https", path: String = "/testrail/index.php", skipSSL: Bool = false) {
         self.username = username
         self.secret = secret
         self.hostname = hostname
