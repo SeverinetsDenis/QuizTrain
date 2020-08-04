@@ -13,7 +13,7 @@ public struct Plan: Identifiable, Equatable {
     public let customStatus6Count: Int
     public let customStatus7Count: Int
     public var description: String?
-    public let entries: [Plan.Entry]?                                           // Certain API calls will always return nil for this value. Others will only return a single entry. See TestRail API documentation for details.
+    public var entries: [Plan.Entry]?                                           // Certain API calls will always return nil for this value. Others will only return a single entry. See TestRail API documentation for details.
     public let failedCount: Int
     public let id: Id
     public let isCompleted: Bool
