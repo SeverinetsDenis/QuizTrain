@@ -53,7 +53,7 @@ final public class API {
         var components = URLComponents()
         components.scheme = scheme
         components.host = hostname
-        components.path = "/index.php"
+        components.path = "/testrail/index.php"
         components.port = port
         return components
     }
